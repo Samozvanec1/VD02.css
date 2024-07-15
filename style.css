@@ -1,0 +1,39 @@
+body {
+    background: #55C555;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+p {
+   background: white;
+}
+
+#test{
+    background: red;
+    color: white;
+}
+.ptest{
+    background: blue;
+    color: white;
+
+}
+#tust{
+    font-size: 12px;
+    border-color: green;
+    border-style: solid;
+    border-width: 50%;
+    border-radius: 100px;
+}
+
+}
+.ptest2{
+    font-family: OCR A Std, monospace;
+    font-weight: 900;
+}
+#teyst{
+    font-size: 150%;
+    width: 16%;
+    height: 50px;
+}

@@ -1,0 +1,33 @@
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: lightcoral;
+    border-radius: 15px;
+    transition: 1.5s; /* время перехода */
+}
+.img-box{
+    position: relative; /* позиционирование относительно окна браузера(родительского элемента)*/
+    left: 50px;
+    top: 30px;
+
+}
+.img{
+   height: 70%;
+   width: 70%;
+   /*margin: 10px*/
+   /*padding: 10px;*/
+
+
+
+}
+.info{
+    height:40%
+
+}
+
+
+.info-text{
+    font-size: 150%;
+    font-family: OCR A Std, monospace;
+
+}

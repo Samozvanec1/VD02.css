@@ -1,0 +1,14 @@
+.helper{
+    width: 100px;
+    height: 100px;
+    background-color: PaleVioletRed;
+    border-radius: 60px;
+    position: fixed;
+    top: 70%;
+    left: 80%;
+    transition: 1.5s; /* время перехода */
+}
+.helper-image{
+  width: 100%;
+  height: 100%;
+}

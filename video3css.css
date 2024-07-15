@@ -1,0 +1,51 @@
+#fletter::first-letter {
+    font-size: 50px;
+    color: red;
+    border-radius: 10px;
+    background-color: yellow;
+}
+#before::before {
+    content: " BeforeTest";
+    font-size: 50px;
+    color: red;
+    border-radius: 10px;
+    background-color: yellow;
+}
+#after::after {
+    content: " AfterTest";
+    font-size: 50px;
+    color: red;
+    border-radius: 10px;
+    background-color: yellow;
+}
+div{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    transition: 1.5s; /* время перехода */
+}
+div:hover { /* при наведении курсора меняется цвет */
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    transition: 1.5s; /* время перехода становится плавным */
+
+}
+a{
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 1.5s; /* время перехода */
+}
+a:link { /* при наведении курсора меняется цвет */
+    color: red;
+}
+a:visited { /* при наведении курсора меняется цвет */
+    color: green;
+}
+a:active{
+    color: blue;
+    }
